@@ -1,37 +1,35 @@
+# Set values from config.ini
 $Config = ConvertFrom-StringData (Get-Content -Path ".\config.ini" -Raw)
-
-# IFTTT Webhook API
 $IFTTTEventName = $Config.IFTTTEventName;
 $IFTTTWebhookKey = $Config.IFTTTWebhookKey;
-
-# Plex API
 $PlexURI = $Config.PlexURI;
 $PlexToken = $Config.PlexToken;
 $PlexServerID = $Config.PlexServerID;
 $PlexTVShowKey = $Config.PlexTVShowKey;
+$Title = $Config.DefaultTitle;
+$Message = $Config.DefaultMessage;
+$LinkURL = $Config.LinkURL;
 
-# Default Notification Contents
+# Notification Contents
 # Value1 => $Title
 # Value2 => $Message 
 # Value3 => $LinkURL "plex://preplay/?metadataKey=$ShowMetadataKey&metadataType=2&server=$PlexServerID"
-$Title = "Default Sonarr Event";
-$Message = "Default Sonarr Event Notification Test";
-$LinkURL = "plex://";
 
-# Grab Plex link to the show
+
+# Grab and set Plex $LinkURL to the show
 $LibrarySectionXML = Invoke-RestMethod -URI "$PlexURI/library/sections/$PlexTVShowKey/all?X-Plex-Token=$PlexToken";
 $ShowMetadataKey = ($LibrarySectionXML.DocumentElement.Directory | Where-Object title -eq "$env:sonarr_series_title").key;
-
-# Remove trailing "/children" from key
 if (!$ShowMetadataKey) {
-    write-host "metadata empty";
+    # Couldn't find MetadataKey, keep default LinkURL
+
 } elseif ( $ShowMetadataKey.EndsWith("children") ) { 
+    # Remove trailing "/children" from the key
     $ShowMetadataKey = $ShowMetadataKey.remove($ShowMetadataKey.LastIndexOf("/"), 9);
+    $LinkURL = "plex://preplay/?metadataKey=$ShowMetadataKey&metadataType=2&server=$PlexServerID";
 }
 
-$LinkURL = "plex://preplay/?metadataKey=$ShowMetadataKey&metadataType=2&server=$PlexServerID";
 
-# Change Title and Message
+# Change $Title and $Message
 if ($env:sonarr_eventtype -eq "Download") {
     $Title = "Sonarr - Episode Downloaded";
     $Message = "$env:sonarr_series_title S$env:sonarr_episodefile_seasonnumber E$env:sonarr_episodefile_episodenumbers has been downloaded! Tap to open Plex.";
