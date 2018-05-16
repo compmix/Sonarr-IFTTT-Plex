@@ -31,7 +31,7 @@ The last part of the URL contains your key. Put it in the config.ini file.
 
 ### 2a. The easy way (script)
 
-Run the Get-PlexInfo.ps1 PowerShell script. It should give you this information:
+Run the Get-PlexInfo.ps1 PowerShell script and follow instructions. It should give you this information:
 ```
 PlexToken=
 PlexServerID=
@@ -55,7 +55,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI1OTU4NTIsLTE2ODYwODE3NTUsLT
-gwODUyNzM0MCwyMjE4NjQ1NjMsLTE3NDcwODA5NDEsLTM2NTM3
-ODQ3NCwtMTg1OTg3ODc3OSwtMTEzNjk1ODA4MV19
+eyJoaXN0b3J5IjpbMTAyOTk5OTIzMSwtMTY4NjA4MTc1NSwtOD
+A4NTI3MzQwLDIyMTg2NDU2MywtMTc0NzA4MDk0MSwtMzY1Mzc4
+NDc0LC0xODU5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
 -->
