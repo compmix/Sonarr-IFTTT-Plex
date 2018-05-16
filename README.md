@@ -1,38 +1,21 @@
 # Sonarr-IFTTT-Plex
 A simple script to send push notifications from Sonarr to your mobile device using IFTTT with Plex deep linking support.
 
+
 # Usage
+When configured properly, your mobile device will receive rich notifications when an episode is grabbed, downloaded, or renamed. Plus, opening the notification will send you to the show page inside the Plex app.
 
-## 1. Setting up IFTTT
+# Setup
+Download IFTTT on mobile device.
+Create an IFTTT webhook event that sends rich notifications.
+Configure Sonarr, add a Custom Post Processing script with ifttt_webhook_on_event.ps1
+Fill in config.ini file with necessary info.
 
-
-### 1a. Getting IFTTT Webhooks API Key
-
-
-## 2. Getting Plex API info
-
-https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
-https://forums.plex.tv/discussion/129922/how-to-request-a-x-plex-token-token-for-your-app/p1
+See [detailed setup instructions](setup/setup.md).
 
 
-
-### 2a. Get Plex API Key
-Run the setup\Get-PlexInfo.ps1
-
-### 2b. Get TV Show section key
-
-
-## 3. Setting up Sonarr
-host:port/settings/connect
-Create a new Custom Connection
-C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
--ExecutionPolicy Bypass -File C:\sonarr\custom_scripts\ifttt-webhook-on-event.ps1
-
-![enter image description here](https://i.imgur.com/3iyZuFm.png)
-
-## References
-
+# References
 https://forums.plex.tv/discussion/286545/deep-links
 https://github.com/Sonarr/Sonarr/wiki/Custom-Post-Processing-Scripts
 https://support.plex.tv/articles/201638786-plex-media-server-url-commands/
-https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
+https://support.plex.tv/articles/204059436-findingaan-authentication-token-x-plex-token/
