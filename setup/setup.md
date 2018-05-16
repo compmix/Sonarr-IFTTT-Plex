@@ -22,6 +22,8 @@ In the end, the configuration should look like this: https://i.imgur.com/3lVAhm8
 ### 1b.  IFTTT Webhooks API Key
 Get your key from here:
 https://ifttt.com/services/maker_webhooks/settings
+
+The last part of the URL contains your key. Put it in the config.ini file.
 https://maker.ifttt.com/use/{key}
 ## 2. Getting Plex API info
 
@@ -48,6 +50,6 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwMzYxMDc3LC0zNjUzNzg0NzQsLTE4NT
-k4Nzg3NzksLTExMzY5NTgwODFdfQ==
+eyJoaXN0b3J5IjpbLTE3NDcwODA5NDEsLTM2NTM3ODQ3NCwtMT
+g1OTg3ODc3OSwtMTEzNjk1ODA4MV19
 -->
