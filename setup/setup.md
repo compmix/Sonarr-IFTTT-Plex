@@ -20,9 +20,6 @@ Image URL: https://i.imgur.com/hlfVtI3.png
 In the end, the configuration should look like this: https://i.imgur.com/3lVAhm8.png
 
 ### 1b.  IFTTT Webhooks API Key
-Create a new Webhooks
-
-
 Get your key from here:
 https://ifttt.com/services/maker_webhooks/settings
 https://maker.ifttt.com/use/{key}
@@ -51,6 +48,6 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTE2ODcwNCwtMzY1Mzc4NDc0LC0xOD
-U5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
+eyJoaXN0b3J5IjpbNDAwMzYxMDc3LC0zNjUzNzg0NzQsLTE4NT
+k4Nzg3NzksLTExMzY5NTgwODFdfQ==
 -->
