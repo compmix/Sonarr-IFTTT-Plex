@@ -37,6 +37,7 @@ PlexToken=
 PlexServerID=
 PlexTVShowKey=
 ```
+Fill out the config.ini file.
 
 ### 2b. Manually
 1. Obtain an app token. See [this forum thread](https://forums.plex.tv/discussion/129922/how-to-request-a-x-plex-token-token-for-your-app/p1) for more info.
@@ -44,6 +45,8 @@ PlexTVShowKey=
 `Invoke-RestMethod -URI "http://plexserver.url:port/?X-Plex-Token=$PlexToken"`
 3. Obtain the TV Shows Section Key
 `Invoke-RestMethod -URI "http://plexserver.url:port/library/sections?X-Plex-Token=$PlexToken"`
+
+Fill out the config.ini file.
 
 ## 3. Setting up Sonarr
 1. Navigate to Sonarr>Settings>Connect
@@ -56,8 +59,8 @@ It should look like this:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTc1MTEwOCwxMDI5OTk5MjMxLC0xNj
-g2MDgxNzU1LC04MDg1MjczNDAsMjIxODY0NTYzLC0xNzQ3MDgw
-OTQxLC0zNjUzNzg0NzQsLTE4NTk4Nzg3NzksLTExMzY5NTgwOD
-FdfQ==
+eyJoaXN0b3J5IjpbNTI2NjQyMjI2LDEwMjk5OTkyMzEsLTE2OD
+YwODE3NTUsLTgwODUyNzM0MCwyMjE4NjQ1NjMsLTE3NDcwODA5
+NDEsLTM2NTM3ODQ3NCwtMTg1OTg3ODc3OSwtMTEzNjk1ODA4MV
+19
 -->
