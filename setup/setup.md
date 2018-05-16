@@ -10,6 +10,7 @@ Service: Webhooks
 Receive a web request
 Event: sonarr_on_event
 Action Service: Notifications
+"Send a rich notification from the IFTTT app"
 
 ### 1b.  IFTTT Webhooks API Key
 Create a new Webhooks
@@ -43,6 +44,6 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk5NDc3NiwtMzY1Mzc4NDc0LC0xOD
-U5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
+eyJoaXN0b3J5IjpbMTIwMTg1NjEsLTM2NTM3ODQ3NCwtMTg1OT
+g3ODc3OSwtMTEzNjk1ODA4MV19
 -->
