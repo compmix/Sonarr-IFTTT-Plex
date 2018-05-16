@@ -28,10 +28,9 @@ The last part of the URL contains your key. Put it in the config.ini file.
 
 ## 2. Getting Plex Info
 
-https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
 https://forums.plex.tv/discussion/129922/how-to-request-a-x-plex-token-token-for-your-app/p1
 
-
+Run the Get-PlexInfo.ps1 PowerShell script. It shoul
 
 ### 2a. Get Plex API Key
 Invoke-RestMethod -URI "http://plexserver.url:port/library/sections?X-Plex-Token=$PlexToken";
@@ -51,7 +50,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3NTY0MzY2LC04MDg1MjczNDAsMjIxOD
-Y0NTYzLC0xNzQ3MDgwOTQxLC0zNjUzNzg0NzQsLTE4NTk4Nzg3
-NzksLTExMzY5NTgwODFdfQ==
+eyJoaXN0b3J5IjpbMTc0MzQ4NzQxOCwtODA4NTI3MzQwLDIyMT
+g2NDU2MywtMTc0NzA4MDk0MSwtMzY1Mzc4NDc0LC0xODU5ODc4
+Nzc5LC0xMTM2OTU4MDgxXX0=
 -->
