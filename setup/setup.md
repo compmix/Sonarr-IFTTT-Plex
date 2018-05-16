@@ -8,7 +8,7 @@ A simple script to send push notifications from Sonarr to your mobile device usi
 ### 1a. Create an IFTTT applet
 Service: Webhooks
 Receive a web request
-Event: on_sonarr_event
+Event: sonarr_on_event
 Action Service: Notifications
 
 ### 1b.  IFTTT Webhooks API Key
@@ -43,6 +43,6 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzYzODM0NCwtMzY1Mzc4NDc0LC0xOD
+eyJoaXN0b3J5IjpbLTE4Mzk5NDc3NiwtMzY1Mzc4NDc0LC0xOD
 U5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
 -->
