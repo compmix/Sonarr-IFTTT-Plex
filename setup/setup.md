@@ -1,3 +1,4 @@
+
 # Setup
 A simple script to send push notifications from Sonarr to your mobile device using IFTTT with Plex deep linking support.
 
@@ -32,3 +33,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 ![enter image description here](https://i.imgur.com/3iyZuFm.png)
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExMzY5NTgwODFdfQ==
+-->
