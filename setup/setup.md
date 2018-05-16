@@ -37,6 +37,7 @@ PlexToken=
 PlexServerID=
 PlexTVShowKey=
 ```
+
 ### 2b. Manually
 Obtain an app token. See [this forum thread](https://forums.plex.tv/discussion/129922/how-to-request-a-x-plex-token-token-for-your-app/p1) for more info.
 
@@ -57,7 +58,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA5MzEwNDQsLTgwODUyNzM0MCwyMj
-E4NjQ1NjMsLTE3NDcwODA5NDEsLTM2NTM3ODQ3NCwtMTg1OTg3
-ODc3OSwtMTEzNjk1ODA4MV19
+eyJoaXN0b3J5IjpbMTM5OTQ1NTA1MCwtODA4NTI3MzQwLDIyMT
+g2NDU2MywtMTc0NzA4MDk0MSwtMzY1Mzc4NDc0LC0xODU5ODc4
+Nzc5LC0xMTM2OTU4MDgxXX0=
 -->
