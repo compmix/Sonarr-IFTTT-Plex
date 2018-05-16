@@ -31,7 +31,6 @@ The last part of the URL contains your key. Put it in the config.ini file.
 
 ### 2a. The easy way (script)
 
-
 Run the Get-PlexInfo.ps1 PowerShell script. It should give you this information:
 ```
 PlexToken=
@@ -40,6 +39,7 @@ PlexTVShowKey=
 ```
 ### 2b. Manually
 Obtain an app token. See [this forum thread](https://forums.plex.tv/discussion/129922/how-to-request-a-x-plex-token-token-for-your-app/p1) for more info.
+
 Invoke-RestMethod -URI "http://plexserver.url:port/library/sections?X-Plex-Token=$PlexToken";
 response = Invoke-RestMethod -URI "http://plexserver.url:port/library/sections/7/all?X-Plex-Token=$PlexToken";
 response = Invoke-RestMethod -URI "http://plexserver.url:port/library/metadata/11115?X-Plex-Token=$PlexToken";
@@ -57,7 +57,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTYyMTU5NiwtODA4NTI3MzQwLDIyMT
-g2NDU2MywtMTc0NzA4MDk0MSwtMzY1Mzc4NDc0LC0xODU5ODc4
-Nzc5LC0xMTM2OTU4MDgxXX0=
+eyJoaXN0b3J5IjpbLTIwMzA5MzEwNDQsLTgwODUyNzM0MCwyMj
+E4NjQ1NjMsLTE3NDcwODA5NDEsLTM2NTM3ODQ3NCwtMTg1OTg3
+ODc3OSwtMTEzNjk1ODA4MV19
 -->
