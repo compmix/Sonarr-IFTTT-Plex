@@ -9,7 +9,10 @@ A simple script to send push notifications from Sonarr to your mobile device usi
 
 ### 1a. Getting IFTTT Webhooks API Key
 Create a new Webhooks
+
 https://i.imgur.com/3lVAhm8.png
+https://maker.ifttt.com/use/
+https://ifttt.com/services/maker_webhooks/settings
 ## 2. Getting Plex API info
 
 https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
@@ -35,6 +38,6 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTM3ODQ3NCwtMTg1OTg3ODc3OSwtMT
-EzNjk1ODA4MV19
+eyJoaXN0b3J5IjpbLTIxMzc0MDk4MCwtMzY1Mzc4NDc0LC0xOD
+U5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
 -->
