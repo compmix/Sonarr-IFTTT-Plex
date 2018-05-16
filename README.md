@@ -7,7 +7,7 @@ When configured properly, your mobile device will receive rich notifications whe
 
 # Setup
 1. Set up IFTTT webhook event that sends rich notifications.
-2. Download ifttt_webhook_on_event.ps1 and config.ini file. Fill config.ini with necessary info.
+2. Download ifttt_webhook_on_event.ps1 and config.ini file. Fill config.ini with necessary IFTTT and Plex API info.
 3. In Sonarr, add a Custom Post Processing Script with ifttt_webhook_on_event.ps1.
 
 See [detailed setup instructions](setup/setup.md).
@@ -19,5 +19,5 @@ https://github.com/Sonarr/Sonarr/wiki/Custom-Post-Processing-Scripts
 https://support.plex.tv/articles/201638786-plex-media-server-url-commands/
 https://support.plex.tv/articles/204059436-findingaan-authentication-token-x-plex-token/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA4MzAxMDBdfQ==
+eyJoaXN0b3J5IjpbMTM3MzQyNTk5LC0xMTUwODMwMTAwXX0=
 -->
