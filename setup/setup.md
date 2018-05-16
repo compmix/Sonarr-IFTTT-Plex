@@ -46,7 +46,7 @@ PlexTVShowKey=
 `Invoke-RestMethod -URI "http://plexserver.url:port/library/sections?X-Plex-Token=$PlexToken"`
 
 ## 3. Setting up Sonarr
-host:port/settings/connect
+http://sonarr.url:port/settings/connect
 Create a new Custom Connection
 C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 -ExecutionPolicy Bypass -File C:\sonarr\custom_scripts\ifttt-webhook-on-event.ps1
@@ -55,7 +55,8 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTk5OTIzMSwtMTY4NjA4MTc1NSwtOD
-A4NTI3MzQwLDIyMTg2NDU2MywtMTc0NzA4MDk0MSwtMzY1Mzc4
-NDc0LC0xODU5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
+eyJoaXN0b3J5IjpbLTIwMDMwMjMyMTUsMTAyOTk5OTIzMSwtMT
+Y4NjA4MTc1NSwtODA4NTI3MzQwLDIyMTg2NDU2MywtMTc0NzA4
+MDk0MSwtMzY1Mzc4NDc0LC0xODU5ODc4Nzc5LC0xMTM2OTU4MD
+gxXX0=
 -->
