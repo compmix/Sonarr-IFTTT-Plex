@@ -1,5 +1,5 @@
 # Set values from config.ini
-$Config = ConvertFrom-StringData (Get-Content -Path ".\config.ini" -Raw)
+$Config = ConvertFrom-StringData (Get-Content -Path "$PSScriptRoot\config.ini" -Raw)
 $IFTTTEventName = $Config.IFTTTEventName;
 $IFTTTWebhookKey = $Config.IFTTTWebhookKey;
 $PlexURI = $Config.PlexURI;
@@ -40,7 +40,7 @@ if ($env:sonarr_eventtype -eq "Download") {
     
 } elseif ($env:sonarr_eventtype -eq "Grab") {
     $Title = "Sonarr - Episode Downloading";
-    $Message = "$env:sonarr_series_title S$env:sonarr_release_seasonnumber E$env:sonarr_release_episodenumbers ($env:sonarr_release_quality),  $([math]::round( $env:sonarr_release_size / 1MB, 3) ) has started downloading from $env:sonarr_release_indexer.";
+    $Message = "$env:sonarr_series_title $env:sonarr_release_episodenumbers ($env:sonarr_release_quality, $([math]::round($env:sonarr_release_size / 1MB, 3))MB) has started downloading from $env:sonarr_release_indexer.";
 
 }
 
