@@ -15,9 +15,13 @@ See [detailed setup instructions](setup/setup.md).
 
 ## References
 https://forums.plex.tv/discussion/286545/deep-links
+
 https://github.com/Sonarr/Sonarr/wiki/Custom-Post-Processing-Scripts
+
 https://support.plex.tv/articles/201638786-plex-media-server-url-commands/
+
 https://support.plex.tv/articles/204059436-findingaan-authentication-token-x-plex-token/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzQyNTk5LC0xMTUwODMwMTAwXX0=
+eyJoaXN0b3J5IjpbLTEyMTkzMDMwODcsLTExNTA4MzAxMDBdfQ
+==
 -->
