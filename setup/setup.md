@@ -34,9 +34,9 @@ https://forums.plex.tv/discussion/129922/how-to-request-a-x-plex-token-token-for
 
 
 ### 2a. Get Plex API Key
-Invoke-RestMethod -URI "http://192.168.2.201:32400/library/sections?X-Plex-Token=$PlexToken";
-response = Invoke-RestMethod -URI "http://plexserver.url/library/sections/7/all?X-Plex-Token=$PlexToken";
-response = Invoke-RestMethod -URI "http://192.168.2.201:32400/library/metadata/11115?X-Plex-Token=$PlexToken";
+Invoke-RestMethod -URI "http://plexserver.url:port/library/sections?X-Plex-Token=$PlexToken";
+response = Invoke-RestMethod -URI "http://plexserver.url:port/library/sections/7/all?X-Plex-Token=$PlexToken";
+response = Invoke-RestMethod -URI "http://plexserver.url:port/library/metadata/11115?X-Plex-Token=$PlexToken";
 
 ### 2b. Get TV Show section key
 
@@ -51,7 +51,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNDE0MzAxLDIyMTg2NDU2MywtMTc0Nz
-A4MDk0MSwtMzY1Mzc4NDc0LC0xODU5ODc4Nzc5LC0xMTM2OTU4
-MDgxXX0=
+eyJoaXN0b3J5IjpbLTgwODUyNzM0MCwyMjE4NjQ1NjMsLTE3ND
+cwODA5NDEsLTM2NTM3ODQ3NCwtMTg1OTg3ODc3OSwtMTEzNjk1
+ODA4MV19
 -->
