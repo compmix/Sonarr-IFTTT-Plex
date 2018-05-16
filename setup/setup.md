@@ -41,7 +41,8 @@ PlexTVShowKey=
 ### 2b. Manually
 1. Obtain an app token. See [this forum thread](https://forums.plex.tv/discussion/129922/how-to-request-a-x-plex-token-token-for-your-app/p1) for more info.
 2. Obtain your Plex Server ID (machineid)
-`Invoke-RestMethod -URI "http://plexserver.url:port/library/sections?X-Plex-Token=$PlexToken"`
+`Invoke-RestMethod -URI "http://plexserver.url:port/?X-Plex-Token=$PlexToken"`
+3. Obtain the 
 response = Invoke-RestMethod -URI "http://plexserver.url:port/library/sections/7/all?X-Plex-Token=$PlexToken";
 response = Invoke-RestMethod -URI "http://plexserver.url:port/library/metadata/11115?X-Plex-Token=$PlexToken";
 
@@ -58,7 +59,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjczMjkzOCwtODA4NTI3MzQwLDIyMT
-g2NDU2MywtMTc0NzA4MDk0MSwtMzY1Mzc4NDc0LC0xODU5ODc4
-Nzc5LC0xMTM2OTU4MDgxXX0=
+eyJoaXN0b3J5IjpbLTI0NTAzNTU1LC04MDg1MjczNDAsMjIxOD
+Y0NTYzLC0xNzQ3MDgwOTQxLC0zNjUzNzg0NzQsLTE4NTk4Nzg3
+NzksLTExMzY5NTgwODFdfQ==
 -->
