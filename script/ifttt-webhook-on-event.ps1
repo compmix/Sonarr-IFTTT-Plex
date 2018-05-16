@@ -5,7 +5,7 @@ $IFTTTWebhookKey = $Config.IFTTTWebhookKey;
 $PlexURI = $Config.PlexURI;
 $PlexToken = $Config.PlexToken;
 $PlexServerID = $Config.PlexServerID;
-$PlexTVShowKey = $Config.PlexTVShowKey;
+$PlexTVShowSectionKey = $Config.PlexTVShowSectionKey;
 $Title = $Config.DefaultTitle;
 $Message = $Config.DefaultMessage;
 $LinkURL = $Config.LinkURL;
@@ -17,7 +17,7 @@ $LinkURL = $Config.LinkURL;
 
 
 # Grab and set Plex $LinkURL to the show
-$LibrarySectionXML = Invoke-RestMethod -URI "$PlexURI/library/sections/$PlexTVShowKey/all?X-Plex-Token=$PlexToken";
+$LibrarySectionXML = Invoke-RestMethod -URI "$PlexURI/library/sections/$PlexTVShowSectionKey/all?X-Plex-Token=$PlexToken";
 $ShowMetadataKey = ($LibrarySectionXML.DocumentElement.Directory | Where-Object title -eq "$env:sonarr_series_title").key;
 if (!$ShowMetadataKey) {
     # Couldn't find MetadataKey, keep default LinkURL
@@ -40,7 +40,7 @@ if ($env:sonarr_eventtype -eq "Download") {
     
 } elseif ($env:sonarr_eventtype -eq "Grab") {
     $Title = "Sonarr - Episode Downloading";
-    $Message = "$env:sonarr_series_title $env:sonarr_release_episodenumbers ($env:sonarr_release_quality, $([math]::round($env:sonarr_release_size / 1MB, 3))MB) has started downloading from $env:sonarr_release_indexer.";
+    $Message = "$env:sonarr_series_title E$env:sonarr_release_episodenumbers ($env:sonarr_release_quality, $([math]::round($env:sonarr_release_size / 1MB, 3))MB) has started downloading from $env:sonarr_release_indexer.";
 
 }
 
