@@ -17,9 +17,11 @@ Message: {{value2}}
 Link URL: {{value3}}
 Image URL: https://i.imgur.com/hlfVtI3.png
 
+In the end, the configuration should look like this: https://i.imgur.com/3lVAhm8.png
+
 ### 1b.  IFTTT Webhooks API Key
 Create a new Webhooks
-https://i.imgur.com/3lVAhm8.png
+
 
 Get your key from here:
 https://ifttt.com/services/maker_webhooks/settings
@@ -49,6 +51,6 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTM4MDEyMywtMzY1Mzc4NDc0LC0xOD
+eyJoaXN0b3J5IjpbMTA4OTE2ODcwNCwtMzY1Mzc4NDc0LC0xOD
 U5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
 -->
