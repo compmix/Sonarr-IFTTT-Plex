@@ -49,13 +49,14 @@ PlexTVShowKey=
 1. Navigate to Sonarr>Settings>Connect
 2. Create a new Custom Script Connection
 Path: `C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe`
--ExecutionPolicy Bypass -File C:\sonarr\custom_scripts\ifttt-webhook-on-event.ps1
+Arguments: `-ExecutionPolicy Bypass -File C:\path\to\script\ifttt-webhook-on-event.ps1`
 
+It should look like this:
 ![enter image description here](https://i.imgur.com/3iyZuFm.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDk4MDg0OCwxMDI5OTk5MjMxLC0xNj
+eyJoaXN0b3J5IjpbMTU4MTc1MTEwOCwxMDI5OTk5MjMxLC0xNj
 g2MDgxNzU1LC04MDg1MjczNDAsMjIxODY0NTYzLC0xNzQ3MDgw
 OTQxLC0zNjUzNzg0NzQsLTE4NTk4Nzg3NzksLTExMzY5NTgwOD
 FdfQ==
