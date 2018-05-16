@@ -6,16 +6,16 @@ A simple script to send push notifications from Sonarr to your mobile device usi
 
 ## 1. Setting up IFTTT
 ### 1a. Create an IFTTT applet
-Service: Webhooks
-Trigger: Receive a web request
-Event Name: "sonarr_on_event"
-Action Service: Notifications
-Action: "Send a rich notification from the IFTTT app"
+Service: **Webhooks**
+Trigger: **Receive a web request**
+Event Name: `sonarr_on_event`
+Action Service: **Notifications**
+Action: **Send a rich notification from the IFTTT app**
 
-Title: {{value1}}
-Message: {{value2}}
-Link URL: {{value3}}
-Image URL: https://i.imgur.com/hlfVtI3.png
+Title: `{{value1}}`
+Message: `{{value2}}`
+Link URL: `{{value3}}`
+Image URL: `https://i.imgur.com/hlfVtI3.png`
 
 In the end, the configuration should look like this: https://i.imgur.com/3lVAhm8.png
 
@@ -51,6 +51,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxODY0NTYzLC0xNzQ3MDgwOTQxLC0zNj
-UzNzg0NzQsLTE4NTk4Nzg3NzksLTExMzY5NTgwODFdfQ==
+eyJoaXN0b3J5IjpbMzU3NTYxNDYzLDIyMTg2NDU2MywtMTc0Nz
+A4MDk0MSwtMzY1Mzc4NDc0LC0xODU5ODc4Nzc5LC0xMTM2OTU4
+MDgxXX0=
 -->
