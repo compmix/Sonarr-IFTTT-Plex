@@ -43,7 +43,7 @@ PlexTVShowKey=
 2. Obtain your Plex Server ID (machineid)
 `Invoke-RestMethod -URI "http://plexserver.url:port/?X-Plex-Token=$PlexToken"`
 3. Obtain the TV Shows Section Key
-Invoke-RestMethod -URI "http://plexserver.url:port/library/sections?X-Plex-Token=$PlexToken";
+`Invoke-RestMethod -URI "http://plexserver.url:port/library/sections?X-Plex-Token=$PlexToken"`
 
 ### 2b. Get TV Show section key
 
@@ -58,7 +58,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODYwODE3NTUsLTgwODUyNzM0MCwyMj
-E4NjQ1NjMsLTE3NDcwODA5NDEsLTM2NTM3ODQ3NCwtMTg1OTg3
-ODc3OSwtMTEzNjk1ODA4MV19
+eyJoaXN0b3J5IjpbMTEwMTg4NDU0NCwtMTY4NjA4MTc1NSwtOD
+A4NTI3MzQwLDIyMTg2NDU2MywtMTc0NzA4MDk0MSwtMzY1Mzc4
+NDc0LC0xODU5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
 -->
