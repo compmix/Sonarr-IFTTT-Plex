@@ -11,11 +11,10 @@ A simple script to send push notifications from Sonarr to your mobile device usi
 - Event Name: `sonarr_on_event`
 - Action Service: **Notifications**
 - Action: **Send a rich notification from the IFTTT app**
-
-- Title: `{{value1}}`
-- Message: `{{value2}}`
-- Link URL: `{{value3}}`
-- Image URL: `https://i.imgur.com/hlfVtI3.png`
+  -   Title: `{{value1}}`
+  - Message: `{{value2}}`
+  - Link URL: `{{value3}}`
+  - Image URL: `https://i.imgur.com/hlfVtI3.png`
 
 In the end, the configuration should look like this: https://i.imgur.com/3lVAhm8.png
 
@@ -59,7 +58,7 @@ It should look like this:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTc3MjkyOSw1MjY2NDIyMjYsMTAyOT
+eyJoaXN0b3J5IjpbLTYwMTkxMjYyMyw1MjY2NDIyMjYsMTAyOT
 k5OTIzMSwtMTY4NjA4MTc1NSwtODA4NTI3MzQwLDIyMTg2NDU2
 MywtMTc0NzA4MDk0MSwtMzY1Mzc4NDc0LC0xODU5ODc4Nzc5LC
 0xMTM2OTU4MDgxXX0=
