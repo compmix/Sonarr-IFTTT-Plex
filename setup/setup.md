@@ -24,7 +24,8 @@ Get your key from here:
 https://ifttt.com/services/maker_webhooks/settings
 
 The last part of the URL contains your key. Put it in the config.ini file.
-https://maker.ifttt.com/use/{key}
+![https://i.imgur.com/2p0kjn0.png](https://i.imgur.com/2p0kjn0.png)
+
 ## 2. Getting Plex API info
 
 https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
@@ -50,6 +51,6 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDcwODA5NDEsLTM2NTM3ODQ3NCwtMT
-g1OTg3ODc3OSwtMTEzNjk1ODA4MV19
+eyJoaXN0b3J5IjpbLTQwNTA4MTQ2MCwtMTc0NzA4MDk0MSwtMz
+Y1Mzc4NDc0LC0xODU5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
 -->
