@@ -45,9 +45,6 @@ PlexTVShowKey=
 3. Obtain the TV Shows Section Key
 `Invoke-RestMethod -URI "http://plexserver.url:port/library/sections?X-Plex-Token=$PlexToken"`
 
-### 2b. Get TV Show section key
-
-
 ## 3. Setting up Sonarr
 host:port/settings/connect
 Create a new Custom Connection
@@ -58,7 +55,7 @@ C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTg4NDU0NCwtMTY4NjA4MTc1NSwtOD
-A4NTI3MzQwLDIyMTg2NDU2MywtMTc0NzA4MDk0MSwtMzY1Mzc4
-NDc0LC0xODU5ODc4Nzc5LC0xMTM2OTU4MDgxXX0=
+eyJoaXN0b3J5IjpbLTExNzI1OTU4NTIsLTE2ODYwODE3NTUsLT
+gwODUyNzM0MCwyMjE4NjQ1NjMsLTE3NDcwODA5NDEsLTM2NTM3
+ODQ3NCwtMTg1OTg3ODc3OSwtMTEzNjk1ODA4MV19
 -->
